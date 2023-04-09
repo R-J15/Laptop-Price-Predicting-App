@@ -10,7 +10,7 @@ df = pickle.load(open('df.pkl','rb'))
 
 
 
-st.title('Laptop Price')
+st.title('Laptop Price Predicting App')
 
 image = Image.open('laptop.jpeg')
 st.image(image, width=500)
